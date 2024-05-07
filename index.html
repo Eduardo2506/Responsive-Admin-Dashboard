@@ -3,11 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/icon?family" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Dashboard Design</title>
 </head>
 <body>
+<div class="container">
+    <!-- Sidbebar Selection -->
+    <aside>
+        <div class="toggle">
+            <div class="logo">
+                <img src="images/logo.png">
+                <h2>Eduardo<span class="danger">Castro</span></h2>
+            </div>
+            <div class="close" id="close-btn">
+                <span class="material-icons-sharp">
+                    close
+                </span>
+            </div>
+        </div>
+
+        <div class="slidebar">
+            <a href="#">
+                <span class="material-icons-sharp">
+                    dashboard
+                </span>
+                <h3>Dashboard</h3>
+            </a>
+            <a href="#">
+                <span class="material-icons-sharp">
+                    person_outline
+                </span>
+                <h3>Users</h3>
+            </a>
+            <a href="#">
+                <span class="material-icons-sharp">
+                    receipt_long
+                </span>
+                <h3>History</h3>
+            </a>
+            <a href="#" class="active">
+                <span class="material-icons-sharp">
+                    insights
+                </span>
+                <h3>Analytics</h3>
+            </a>
+        </div>
+
+    </aside>
+</div>
     
     <script>src="orders.js"</script>
     <script>src="index.js"</script>
